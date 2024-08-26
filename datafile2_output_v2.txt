@@ -1,0 +1,310 @@
+-------------------------------------------- CODE VERSION --------------------------------------------
+FILE NAME: datafile2_script.py
+
+import h5py
+import numpy as np
+
+path = r"C:\Users\alkrd\Desktop\graduation_project\eSEEd_v2\data_v2.mat"
+
+def dereference(references, f):
+    dereferenced_output = [f[obj_ref] for obj_ref in references.flatten()]
+    for i, ref in enumerate(dereferenced_output):
+        print(f"Dereferenced data {i} type:", type(ref))
+        if isinstance(ref, h5py.Dataset):
+            print(f"Dereferenced data {i} as below:")
+            print_dataset_info(ref)
+        elif isinstance(ref, h5py.Group):
+            print(f"Dereferenced data {i} is a group with keys:", list(ref.keys()))
+            process_group(ref, f)
+        else:
+            print(f"Dereferenced data {i} is of type {type(ref)} and cannot be processed directly.")
+
+def print_dataset_info(dataset):
+    print("Shape:", dataset.shape)
+    print("Data type:", dataset.dtype)
+    print("Sample data:", dataset[:1])
+
+def process_group(group, f):
+    print("------------------- group processing begins here -------------------")
+    for key in group.keys():
+        print(f"Group key: {key}")
+        if isinstance(group[key], h5py.Dataset):
+            print(f"{key} is a dataset.")
+            print_dataset_info(group[key])
+            references = group[key][:]
+            dereference(references, f)
+        elif isinstance(group[key], h5py.Group):
+            print(f"{key} is a group.")
+            process_group(group[key], f)
+
+with h5py.File(path, 'r') as f:
+    print('ROOT: ', f)
+    data_group = f['Data']
+    for key in data_group.keys():
+        print("key:", key)
+        if isinstance(data_group[key], h5py.Dataset):
+            print(key + " is a dataset.")
+            dataset = data_group[key]
+            print_dataset_info(dataset)
+            references = dataset[0:1]
+            print("References:", references)
+            dereference(references, f)
+            print('-----------------')
+
+-------------------------------------------- OUTPUT -------------------------------------------- 
+
+ROOT:  <HDF5 file "data_v2.mat" (mode r)>
+key: questionnaires
+questionnaires is a dataset.
+Shape: (48, 1)
+Data type: object
+Sample data: [[<HDF5 object reference>]]
+References: [[<HDF5 object reference>]]
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 0 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1       1921          1]]
+-----------------
+key: subject_info
+subject_info is a dataset.
+Shape: (48, 1)
+Data type: object
+Sample data: [[<HDF5 object reference>]]
+References: [[<HDF5 object reference>]]
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 0 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1       1969          1]]
+-----------------
+key: video
+video is a dataset.
+Shape: (48, 1)
+Data type: object
+Sample data: [[<HDF5 object reference>]]
+References: [[<HDF5 object reference>]]
+Dereferenced data 0 type: <class 'h5py._hl.group.Group'>
+Dereferenced data 0 is a group with keys: ['annotation', 'blinks', 'gaze', 'pupil']
+------------------- group processing begins here -------------------
+Group key: annotation
+annotation is a dataset.
+Shape: (10, 1)
+Data type: object
+Sample data: [[<HDF5 object reference>]]
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 0 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         31          1]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 1 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         32          1]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 2 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         33          1]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 3 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         34          1]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 4 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         35          1]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 5 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         36          1]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 6 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         37          1]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 7 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         38          1]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 8 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         39          1]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 9 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         40          1]]
+Group key: blinks
+blinks is a dataset.
+Shape: (10, 1)
+Data type: object
+Sample data: [[<HDF5 object reference>]]
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 0 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         21          1]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 1 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         22          1]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 2 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         23          1]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 3 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         24          1]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 4 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         25          1]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 5 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         26          1]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 6 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         27          1]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 7 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         28          1]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 8 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         29          1]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 9 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         30          1]]
+Group key: gaze
+gaze is a dataset.
+Shape: (10, 1)
+Data type: object
+Sample data: [[<HDF5 object reference>]]
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 0 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1          1          1]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 1 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1          2          1]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 2 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1          3          1]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 3 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1          4          1]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 4 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1          5          1]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 5 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1          6          1]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 6 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1          7          1]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 7 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1          8          1]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 8 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1          9          1]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 9 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         10          1]]
+Group key: pupil
+pupil is a dataset.
+Shape: (10, 1)
+Data type: object
+Sample data: [[<HDF5 object reference>]]
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 0 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         11          1]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 1 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         12          1]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 2 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         13          1]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 3 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         14          1]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 4 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         15          1]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 5 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         16          1]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 6 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         17          1]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 7 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         18          1]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 8 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         19          1]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Dereferenced data 9 as below:
+Shape: (1, 6)
+Data type: uint32
+Sample data: [[3707764736          2          1          1         20          1]]
+-----------------
