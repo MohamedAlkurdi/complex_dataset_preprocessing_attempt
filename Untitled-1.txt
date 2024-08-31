@@ -1,0 +1,460 @@
+explain the structure of .mat files.
+----------------------------------------------
+is this code enough to explore .mat files?
+
+import h5py
+import numpy as np
+
+path = r"C:\Users\alkrd\Desktop\graduation_project\data.mat"
+
+def dereference(references, f):
+    dereferenced_output = [f[obj_ref] for obj_ref in references.flatten()]
+    for i, ref in enumerate(dereferenced_output):
+        print(f"Dereferenced data {i} type:", type(ref))
+        if isinstance(ref, h5py.Dataset):
+            print(f"Dereferenced data {i} as below:")
+            print_dataset_info(ref)
+        elif isinstance(ref, h5py.Group):
+            print(f"Dereferenced data {i} is a group with keys:", list(ref.keys()))
+            process_group(ref, f)
+        else:
+            print(f"Dereferenced data {i} is of type {type(ref)} and cannot be processed directly.")
+
+def print_dataset_info(dataset):
+    print("Shape:", dataset.shape)
+    print("Data type:", dataset.dtype)
+    print("Sample data:", dataset[:1])
+
+def process_group(group, f):
+    print("------------------- group processing begins here -------------------")
+    for key in group.keys():
+        print(f"Group key: {key}")
+        if isinstance(group[key], h5py.Dataset):
+            print(f"{key} is a dataset.")
+            print_dataset_info(group[key])
+            references = group[key][:]
+            dereference(references, f)
+        elif isinstance(group[key], h5py.Group):
+            print(f"{key} is a group.")
+            process_group(group[key], f)
+
+with h5py.File(path, 'r') as f:
+    print('ROOT: ', f)
+    data_group = f['Data']
+    for key in data_group.keys():
+        print("key:", key)
+        if isinstance(data_group[key], h5py.Dataset):
+            print(key + " is a dataset.")
+            dataset = data_group[key]
+            print_dataset_info(dataset)
+            references = dataset[0:1]
+            print("References:", references)
+            dereference(references, f)
+            print('-----------------')
+----------------------------------------------
+there are few problems i am encountering during this process:
+1- the data inside the file seems too little even though the file size is almost 13gb.
+2- the data does not make sense, i mean it is so simple to be used in a deep learning model training.
+
+let me provide more informations:
+i thinks the file contains one big dataset called 'Data', this dataset contains 3 
+layer 1: [Data]
+layer 2:
+sub datasets [
+[name = 'questionnaires', shape = 49 rows, 1 column (49,1)],
+[name = 'subject_info', shape = 49 rows, 1 column (49,1)],
+[name = 'video', shape = 49 rows, 1 column (49,1)]
+layer 3:
+'questionnaires' dataset's rows contain references, each reference refers to a row with 6 columns (1,6), here is a sample data:
+Sample data: [[3707764736          2          1          1       1961          1]]
+
+'subject_info' dataset's rows contain references, each reference refers to a row with 6 columns (1,6), here is a sample data:
+Sample data: [[3707764736          2          1          1       2010          1]]
+
+'video' dataset's rows contain references, each reference refers to a data group with keys ['annotation', 'blinks', 'gaze', 'pupil'], every group key contains a (10,1) dataset, every row contains a reference, every reference referes to a row with 6 columns, here is a sample:
+Sample data: [[3707764736          2          1          1         31          1]]
+
+in every row in the form [column1    column2    column3    column4    column5    column6] the only changing column is coumn 5.
+
+more context: this datafile is meant to be used in "eyes movement setiment analyzer" project.
+
+----------------------------------------------
+first of all, lets try to find all the keys in the first layer of .mat file structure hierarchy.
+
+----------------------------------------------
+
+
+ROOT:  <HDF5 file "data.mat" (mode r)>
+Keys at the first layer of the .mat file structure:
+#refs#
+#subsystem#
+Data
+
+----------------------------------------------
+
+how about #refs# and #subsystem#, what are they?
+
+----------------------------------------------
+
+Keys in '#refs#':
+a
+a0
+a0b
+.
+.
+.
+zzu
+zzv
+zzw
+zzx
+zzy
+zzz
+Keys in '#subsystem#':
+MCOS
+
+----------------------------------------------
+
+how to limit the outputs of #refs# key?
+the output is too long.
+
+----------------------------------------------
+
+before we go any further, 'Data', '#refs#' and "#subsystem#' keys are in the body part, correct?
+
+----------------------------------------------
+
+how about exploring the head section, i there any point of doing that?
+
+
+lets keep working on the body section then, coisdering that "#refs#" in the body section means that it can contain importsant data, here is the output of #refs# explorer:
+
+code:
+import h5py
+
+path = r"C:\Users\alkrd\Desktop\graduation_project\data.mat"
+
+def explore_group_limited(group, limit=3, level=0):
+    indent = "  " * level
+    count = 0
+    for key in group.keys():
+        if count >= limit:
+            print(f"{indent}... (output truncated, showing first {limit} keys)")
+            break
+        item = group[key]
+        if isinstance(item, h5py.Group):
+            print(f"{indent}Group: {key}")
+            explore_group_limited(item, limit, level + 1)
+        elif isinstance(item, h5py.Dataset):
+            print(f"{indent}Dataset: {key}, shape: {item.shape}, dtype: {item.dtype}")
+        count += 1
+
+with h5py.File(path, 'r') as f:
+    print('Exploring #refs# key with limited output:')
+    refs_group = f['#refs#']
+    explore_group_limited(refs_group)
+
+----------------------------------------------
+
+Exploring #refs# key with limited output:
+Group: #a
+  Group: #a
+    Dataset: 0, shape: (6, 1), dtype: uint16
+    Dataset: 00, shape: (6, 1), dtype: uint16
+    ... (output truncated, showing first 2 keys)
+  Group: #b
+    Dataset: 0, shape: (31, 1), dtype: uint16
+    Dataset: 00, shape: (41, 1), dtype: uint16
+    ... (output truncated, showing first 2 keys)
+  ... (output truncated, showing first 2 keys)
+Group: #b
+  Group: #a
+    Dataset: 0, shape: (6, 1), dtype: uint16
+    Dataset: 00, shape: (6, 1), dtype: uint16
+    ... (output truncated, showing first 2 keys)
+  Group: #b
+    Dataset: 0, shape: (31, 1), dtype: uint16
+    Dataset: 00, shape: (41, 1), dtype: uint16
+    ... (output truncated, showing first 2 keys)
+  ... (output truncated, showing first 2 keys)
+... (output truncated, showing first 2 keys)
+
+C:\Users\alkrd\Desktop\graduation_project\data_exploring_scripts - v1>python datafile3_script.py
+Exploring #refs# key with limited output:
+Group: #a
+  Group: #a
+    Dataset: 0, shape: (6, 1), dtype: uint16
+    Dataset: 00, shape: (6, 1), dtype: uint16
+    Dataset: 00b, shape: (6, 1), dtype: uint16
+    ... (output truncated, showing first 3 keys)
+  Group: #b
+    Dataset: 0, shape: (31, 1), dtype: uint16
+    Dataset: 00, shape: (41, 1), dtype: uint16
+    Dataset: 00b, shape: (31, 1), dtype: uint16
+    ... (output truncated, showing first 3 keys)
+  Group: #c
+    Dataset: 0, shape: (36, 1), dtype: uint16
+    Dataset: 00, shape: (31, 1), dtype: uint16
+    Dataset: 00b, shape: (41, 1), dtype: uint16
+    ... (output truncated, showing first 3 keys)
+  ... (output truncated, showing first 3 keys)
+Group: #b
+  Group: #a
+    Dataset: 0, shape: (6, 1), dtype: uint16
+    Dataset: 00, shape: (6, 1), dtype: uint16
+    Dataset: 00b, shape: (6, 1), dtype: uint16
+    ... (output truncated, showing first 3 keys)
+  Group: #b
+    Dataset: 0, shape: (31, 1), dtype: uint16
+    Dataset: 00, shape: (41, 1), dtype: uint16
+    Dataset: 00b, shape: (20, 1), dtype: uint16
+    ... (output truncated, showing first 3 keys)
+  Group: #c
+    Dataset: 0, shape: (20, 1), dtype: uint16
+    Dataset: 00, shape: (6, 1), dtype: uint16
+    Dataset: 00b, shape: (6, 1), dtype: uint16
+    ... (output truncated, showing first 3 keys)
+  ... (output truncated, showing first 3 keys)
+Group: #c
+  Group: #a
+    Dataset: 0, shape: (32, 1), dtype: uint16
+    Dataset: 00, shape: (33, 1), dtype: uint16
+    Dataset: 00b, shape: (34, 1), dtype: uint16
+    ... (output truncated, showing first 3 keys)
+  Group: #b
+    Dataset: 0, shape: (40, 1), dtype: uint16
+    Dataset: 00, shape: (13, 1), dtype: uint16
+    Dataset: 00b, shape: (27, 1), dtype: uint16
+    ... (output truncated, showing first 3 keys)
+  Group: #c
+    Dataset: 0, shape: (6, 1), dtype: uint16
+    Dataset: 00, shape: (6, 1), dtype: uint16
+    Dataset: 00b, shape: (6, 1), dtype: uint16
+    ... (output truncated, showing first 3 keys)
+  ... (output truncated, showing first 3 keys)
+... (output truncated, showing first 3 keys)
+
+----------------------------------------------
+
+how to increase the size of output screen in cmd, i mean how to prevent cmd from cutting long outputs?
+
+----------------------------------------------
+
+code:
+import h5py
+
+path = r"C:\Users\alkrd\Desktop\graduation_project\data.mat"
+
+with h5py.File(path, 'r') as f:
+    print('ROOT: ', f)
+    root_keys = list(f.keys())
+    print("Keys at the first layer of the .mat file structure:")
+    for key in root_keys:
+        print(key)
+
+with h5py.File(path, 'r') as f:
+    # Explore #refs#
+    refs_group = f['#refs#']
+    print("Keys in '#refs#':")
+    for key in refs_group.keys():
+        print(key)
+    
+    # Explore #subsystem#
+    print("Explore #subsystem#")
+    subsystem_group = f['#subsystem#']
+    print("Keys in '#subsystem#':")
+    for key in subsystem_group.keys():
+        print(key)
+
+output:
+z
+z0
+z0b
+z0c
+...
+z9x
+z9y
+z9z
+zA
+zAb
+zAc
+zAd
+zAe
+...
+zGg
+zGh
+zGi
+...
+zKh
+zKi
+...
+zOx
+zOy
+zOz
+...
+zTp
+zTq
+zTr
+...
+zYu
+zYv
+zYw
+zYx
+zYy
+zYz
+zZ
+zZb
+zZc
+zZd
+...
+zeg
+zeh
+zei
+zej
+zek
+zel
+zem
+zen
+zeo
+zep
+zeq
+zer
+...
+zmw
+zmx
+zmy
+zmz
+zn
+znb
+...
+zvb
+zvc
+zvd
+zve
+zvf
+zvg
+zvh
+zvi
+zvj
+...
+zzv
+zzw
+zzx
+zzy
+zzz
+
+note: i replace some parts of the output with '...' so i can fit it here, since the output is really long, i hope you can understand the pattern, and if you undertood the pattern please inform me so i ask you another related question.
+
+----------------------------------------------
+
+the actual output of the code above is much longer than the output i provided, it startes with a and ends with z, and as you know for each letter between a and z there is a combination of 2 character that follows specific rule, which leads us to the fact that the output is big as hell, it is approximately 45000 lines, are we at the same page so far?
+
+remeber this output?
+
+z
+z0
+z0b
+z0c
+...
+z9x
+z9y
+z9z
+zA
+zAb
+zAc
+zAd
+zAe
+...
+zGg
+zGh
+zGi
+...
+zKh
+zKi
+...
+zOx
+zOy
+zOz
+...
+zTp
+zTq
+zTr
+...
+zYu
+zYv
+zYw
+zYx
+zYy
+zYz
+zZ
+zZb
+zZc
+zZd
+...
+zeg
+zeh
+zei
+zej
+zek
+zel
+zem
+zen
+zeo
+zep
+zeq
+zer
+...
+zmw
+zmx
+zmy
+zmz
+zn
+znb
+...
+zvb
+zvc
+zvd
+zve
+zvf
+zvg
+zvh
+zvi
+zvj
+...
+zzv
+zzw
+zzx
+zzy
+zzz
+
+are all of these 3 letter cominations valid keys?
+
+----------------------------------------------
+
+i the code here you sat the limit to 10, how can we cover all the cases?
+i think we should replace 10 with 28 or something...
+import h5py
+
+path = r"C:\Users\alkrd\Desktop\graduation_project\data.mat"
+
+def explore_group_filtered(group, pattern, limit=10, level=0):
+    indent = "  " * level
+    count = 0
+    for key in group.keys():
+        if pattern in key:
+            if count >= limit:
+                print(f"{indent}... (output truncated, showing first {limit} keys matching '{pattern}')")
+                break
+            item = group[key]
+            if isinstance(item, h5py.Group):
+                print(f"{indent}Group: {key}")
+                explore_group_filtered(item, pattern, limit, level + 1)
+            elif isinstance(item, h5py.Dataset):
+                print(f"{indent}Dataset: {key}, shape: {item.shape}, dtype: {item.dtype}")
+            count += 1
+
+with h5py.File(path, 'r') as f:
+    print('Exploring #refs# key with filtered output:')
+    refs_group = f['#refs#']
+    explore_group_filtered(refs_group, pattern='a')
+
+    
