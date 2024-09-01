@@ -1,0 +1,4095 @@
+------------------------ Dataset: 7Oi ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[6011.7231815 6011.724621  6011.727984  ... 6085.737889  6085.7403085
+  6085.7443615]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[   0.    0.    0. ... 2208. 2208. 2208.]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[0.99926745 0.99938462 0.99941001 ... 0.99923474 0.99952008 0.99939048]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[0.43446146 0.43459902 0.43455412 ... 0.56217887 0.56238652 0.56167701]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[0.88217851 0.88204907 0.8815587  ... 0.74356706 0.74337416 0.74421948]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: object
+Data: [[<HDF5 object reference> <HDF5 object reference> <HDF5 object reference>
+  ... <HDF5 object reference> <HDF5 object reference>
+  <HDF5 object reference>]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[-9.30407854 -9.2702182  -9.28108908 ... 10.51605669 10.56058667
+  10.50860758]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[-37.84415574 -37.78167714 -37.75498771 ... -25.86974764 -25.88286297
+  -26.10220083]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[88.44024558 88.32719594 88.38108716 ... 92.68970072 92.79825669
+  93.30981364]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[21.73226953 21.73226953 21.73226953 ... 21.63174587 21.63174587
+  21.63174587]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[15.78583298 15.78583298 15.78583298 ... 15.76815581 15.76815581
+  15.76815581]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[-16.55174562 -16.55174562 -16.55174562 ... -16.69106809 -16.69106809
+  -16.69106809]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[-0.25438937 -0.25438937 -0.25438937 ... -0.09414621 -0.09369136
+  -0.09369136]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[-0.44613034 -0.44613034 -0.44613034 ... -0.36935585 -0.36898453
+  -0.36898453]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[0.85805231 0.85805231 0.85805231 ... 0.92450676 0.92470122 0.92470122]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[-40.71291179 -40.71291179 -40.71291179 ... -40.59122358 -40.59122358
+  -40.59122358]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[15.43002962 15.43002962 15.43002962 ... 15.30686298 15.30686298
+  15.30686298]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[-19.48261185 -19.48261185 -19.48261185 ... -19.69462313 -19.69462313
+  -19.69462313]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[0.25232134 0.25282912 0.25266437 ... 0.39225211 0.39225211 0.39038596]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[-0.42204835 -0.4219152  -0.42123145 ... -0.30111613 -0.30111613
+  -0.30179116]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 17991)
+Data type: float64
+Data: [[0.87075205 0.87066929 0.8710481  ... 0.86917625 0.86917625 0.8697821 ]]
+------------------------ Dataset: 7vn ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[5630.969776  5630.978046  5630.9797325 ... 5694.719609  5694.7235895
+  5694.727542 ]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[   0.    0.    0. ... 1901. 1901. 1901.]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[0.9980697  0.99816003 0.99816733 ... 0.99547488 0.99561504 0.99564526]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[0.46617933 0.46683445 0.46679392 ... 0.47242608 0.47262183 0.47306657]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[0.90988557 0.90859417 0.90883202 ... 0.83648444 0.83605755 0.83539114]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: object
+Data: [[<HDF5 object reference> <HDF5 object reference> <HDF5 object reference>
+  ... <HDF5 object reference> <HDF5 object reference>
+  <HDF5 object reference>]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[-3.33738439 -3.27040838 -3.27655763 ... -2.98789742 -2.9644746
+  -2.89190109]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[-30.58142095 -30.59021828 -30.6187852  ... -29.53423424 -29.53182154
+  -29.35476188]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[66.6896721  66.93642505 66.95733981 ... 78.78751472 78.88006583
+  78.56177518]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[19.32753543 19.32753543 19.32753543 ... 19.28317049 19.28317049
+  19.28317049]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[16.58549075 16.58549075 16.58549075 ... 16.60408647 16.60408647
+  16.60408647]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[-19.58213719 -19.58213719 -19.58213719 ... -19.64808451 -19.64808451
+  -19.64808451]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[-0.22056304 -0.21953579 -0.21953579 ... -0.19637777 -0.19605367
+  -0.19605367]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[-0.51603315 -0.51440859 -0.51440859 ... -0.47850956 -0.47791924
+  -0.47791924]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[0.82768456 0.82896793 0.82896793 ... 0.85584132 0.85624538 0.85624538]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[-38.21594415 -38.21594415 -38.21594415 ... -38.65533313 -38.65533313
+  -38.65533313]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[14.80065504 14.80065504 14.80065504 ... 14.87148237 14.87148237
+  14.87148237]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[-24.40861921 -24.40861921 -24.40861921 ... -23.47268643 -23.47268643
+  -23.47268643]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[0.31997437 0.31997437 0.31984622 ... 0.30014104 0.30014104 0.3015845 ]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[-0.3718481  -0.3718481  -0.37214352 ... -0.31467175 -0.31467175
+  -0.31398403]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 15587)
+Data type: float64
+Data: [[0.87140427 0.87140427 0.8713252  ... 0.90049822 0.90049822 0.90025597]]
+------------------------ Dataset: Bes ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[6412.7252755 6412.730846  6412.7323565 ... 6421.9119255 6421.9166455
+  6421.92083  ]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[  0.   0.   0. ... 274. 274. 274.]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[0.99646767 0.996472   0.9961625  ... 0.99919012 0.99917299 0.99892065]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[0.52103442 0.5203843  0.52038947 ... 0.51185138 0.51195652 0.51140333]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[0.71919525 0.71888485 0.71804321 ... 0.83426475 0.83453083 0.8339194 ]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: object
+Data: [[<HDF5 object reference> <HDF5 object reference> <HDF5 object reference>
+  ... <HDF5 object reference> <HDF5 object reference>
+  <HDF5 object reference>]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[4.01848083 3.90762741 3.90812827 ... 3.15611639 3.17215434 3.06217649]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[-23.15732429 -23.05861771 -22.98526828 ... -39.66934154 -39.65743191
+  -39.47651915]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[ 91.39636739  91.12123477  91.13130278 ... 106.54242309 106.4270839
+  106.13390995]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[21.6103444 21.6103444 21.6103444 ... 21.6103444 21.6103444 21.6103444]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[15.70945706 15.70945706 15.70945706 ... 15.70945706 15.70945706
+  15.70945706]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[-16.72043196 -16.72043196 -16.72043196 ... -16.72043196 -16.72043196
+  -16.72043196]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[-0.15071427 -0.15202562 -0.15202562 ... -0.13486843 -0.13486843
+  -0.13600878]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[-0.35914244 -0.35905169 -0.35905169 ... -0.42108595 -0.42108595
+  -0.42041731]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[0.92103307 0.92085292 0.92085292 ... 0.89693764 0.89693764 0.89707909]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[-40.53333588 -40.53333588 -40.53333588 ... -40.53333588 -40.53333588
+  -40.53333588]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[15.31274479 15.31274479 15.31274479 ... 15.31274479 15.31274479
+  15.31274479]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[-19.73242529 -19.73242529 -19.73242529 ... -19.73242529 -19.73242529
+  -19.73242529]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[0.35356289 0.35356289 0.35358548 ... 0.30190835 0.30223775 0.30223775]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[-0.28094266 -0.28094266 -0.27979138 ... -0.36537887 -0.36580862
+  -0.36580862]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2245)
+Data type: float64
+Data: [[0.89222447 0.89222447 0.89257722 ... 0.8805394  0.88024792 0.88024792]]
+------------------------ Dataset: DPs ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[6598.424186  6598.4312845 6598.437418  ... 6692.7756825 6692.780036
+  6692.7836095]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[   0.    0.    0. ... 2814. 2814. 2814.]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[0.99937085 0.99935378 0.99925608 ... 0.99886441 0.99888799 0.99891113]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[0.48870646 0.48892975 0.4887811  ... 0.44121102 0.44126477 0.44132529]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[0.57854595 0.57722998 0.57576703 ... 0.84462184 0.84440902 0.84374915]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: object
+Data: [[<HDF5 object reference> <HDF5 object reference> <HDF5 object reference>
+  ... <HDF5 object reference> <HDF5 object reference>
+  <HDF5 object reference>]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[-0.73016285 -0.70103371 -0.71927043 ... -8.31483683 -8.30839358
+  -8.29458401]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[ -9.19278012  -9.08474679  -8.97767199 ... -34.8050593  -34.79449572
+  -34.71828048]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[77.16029374 77.0409569  77.01629103 ... 90.39321421 90.42175072
+  90.39577905]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[19.25041575 19.25041575 19.25041575 ... 19.09731801 19.09731801
+  19.09731801]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[14.91880256 14.91880256 14.91880256 ... 14.92687709 14.92687709
+  14.92687709]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[-21.42898962 -21.42898962 -21.42898962 ... -21.66712167 -21.66712167
+  -21.66712167]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[-0.19304896 -0.19304896 -0.19329535 ... -0.21826028 -0.21817001
+  -0.21817001]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[-0.22620925 -0.22620925 -0.22438475 ... -0.39789183 -0.397588
+  -0.397588  ]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[0.95475729 0.95475729 0.95513789 ... 0.89109177 0.89124948 0.89124948]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[-40.67860215 -40.67860215 -40.67860215 ... -40.95658573 -40.95658573
+  -40.95658573]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[15.3199903  15.3199903  15.3199903  ... 15.37836625 15.37836625
+  15.37836625]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[-19.46632567 -19.46632567 -19.46632567 ... -18.81497677 -18.81497677
+  -18.81497677]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[0.3718693  0.37257354 0.37257354 ... 0.26215577 0.26215577 0.26238367]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[-0.23512084 -0.2336541  -0.2336541  ... -0.40092442 -0.40092442
+  -0.40004331]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 22897)
+Data type: float64
+Data: [[0.89801526 0.89810619 0.89810619 ... 0.87780064 0.87780064 0.87813448]]
+------------------------ Dataset: HOi ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [116]
+ [105]
+ [109]
+ [101]
+ [115]
+ [116]
+ [ 97]
+ [109]
+ [112]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (11, 1)
+Data type: uint16
+Data: [[119]
+ [111]
+ [114]
+ [108]
+ [100]
+ [ 95]
+ [105]
+ [110]
+ [100]
+ [101]
+ [120]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[ 99]
+ [111]
+ [110]
+ [102]
+ [105]
+ [100]
+ [101]
+ [110]
+ [ 99]
+ [101]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[110]
+ [111]
+ [114]
+ [109]
+ [ 95]
+ [112]
+ [111]
+ [115]
+ [ 95]
+ [120]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[110]
+ [111]
+ [114]
+ [109]
+ [ 95]
+ [112]
+ [111]
+ [115]
+ [ 95]
+ [121]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (9, 1)
+Data type: uint16
+Data: [[ 98]
+ [ 97]
+ [115]
+ [101]
+ [ 95]
+ [100]
+ [ 97]
+ [116]
+ [ 97]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [120]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [121]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [122]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [120]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [121]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [122]]
+------------------------ Dataset: Hvn ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [116]
+ [105]
+ [109]
+ [101]
+ [115]
+ [116]
+ [ 97]
+ [109]
+ [112]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (11, 1)
+Data type: uint16
+Data: [[119]
+ [111]
+ [114]
+ [108]
+ [100]
+ [ 95]
+ [105]
+ [110]
+ [100]
+ [101]
+ [120]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[ 99]
+ [111]
+ [110]
+ [102]
+ [105]
+ [100]
+ [101]
+ [110]
+ [ 99]
+ [101]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[110]
+ [111]
+ [114]
+ [109]
+ [ 95]
+ [112]
+ [111]
+ [115]
+ [ 95]
+ [120]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[110]
+ [111]
+ [114]
+ [109]
+ [ 95]
+ [112]
+ [111]
+ [115]
+ [ 95]
+ [121]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (9, 1)
+Data type: uint16
+Data: [[ 98]
+ [ 97]
+ [115]
+ [101]
+ [ 95]
+ [100]
+ [ 97]
+ [116]
+ [ 97]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [120]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [121]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [122]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [120]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [121]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [122]]
+------------------------ Dataset: LNy ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[5895.095963  5895.0998415 5895.10385   ... 5932.9396815 5932.943656
+  5932.948358 ]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[   0.    0.    0. ... 1129. 1129. 1129.]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[0.99974718 0.99984303 0.99986024 ... 0.99831543 0.99868854 0.99940453]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[0.5964111  0.59682077 0.59716227 ... 0.47180095 0.46973266 0.46763574]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[0.83606827 0.83558703 0.83515859 ... 0.79413637 0.80231305 0.80951331]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: object
+Data: [[<HDF5 object reference> <HDF5 object reference> <HDF5 object reference>
+  ... <HDF5 object reference> <HDF5 object reference>
+  <HDF5 object reference>]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[13.47338649 13.55762872 13.57207984 ... -3.78767211 -4.08548078
+  -4.52437392]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[-28.89824092 -28.92651124 -28.82905527 ... -32.44442444 -32.83606981
+  -34.21137212]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[76.13589579 76.30879025 76.13968927 ... 98.44172651 97.08182053
+  98.90128446]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[21.46096753 21.46096753 21.46096753 ... 21.30285285 21.30285285
+  21.30285285]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[15.80094516 15.80094516 15.80094516 ... 15.81622492 15.81622492
+  15.81622492]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[-16.95289829 -16.95289829 -16.95289829 ... -17.21505995 -17.21505995
+  -17.21505995]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[-0.07690744 -0.07598689 -0.07598689 ... -0.19610094 -0.19986894
+  -0.19986894]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[-0.43834209 -0.43759333 -0.43759333 ... -0.3865311  -0.3987282
+  -0.3987282 ]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[0.89551184 0.89595651 0.89595651 ... 0.90118706 0.89502415 0.89502415]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[-40.46373889 -40.46373889 -40.46373889 ... -40.6699106  -40.6699106
+  -40.6699106 ]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[15.32169167 15.32169167 15.32169167 ... 15.37955767 15.37955767
+  15.37955767]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[-19.97949191 -19.97949191 -19.97949191 ... -19.55959043 -19.55959043
+  -19.55959043]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[0.4539641  0.4539641  0.45471813 ... 0.27801807 0.27801807 0.2706556 ]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[-0.36556972 -0.36556972 -0.36514144 ... -0.35181089 -0.35181089
+  -0.36060286]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 9204)
+Data type: float64
+Data: [[0.8125733  0.8125733  0.81234423 ... 0.89383167 0.89383167 0.89258676]]
+------------------------ Dataset: Lgc ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[6279.03674   6279.042     6279.0454135 ... 6346.944077  6346.9479385
+  6346.9554675]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[   0.    0.    0. ... 2026. 2026. 2026.]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[0.99853522 0.99837821 0.99831328 ... 0.99961579 0.99968125 0.99964371]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[0.52711905 0.52726778 0.5267011  ... 0.50695702 0.51037772 0.51147213]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[0.69327053 0.69305553 0.692429   ... 0.81483067 0.8032493  0.79641119]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: object
+Data: [[<HDF5 object reference> <HDF5 object reference> <HDF5 object reference>
+  ... <HDF5 object reference> <HDF5 object reference>
+  <HDF5 object reference>]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[4.5947523  4.61052697 4.51926905 ... 1.99894014 2.47446127 2.66362911]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[-19.47253691 -19.4335197  -19.33494836 ... -33.27001736 -31.26290881
+  -30.86978947]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[85.39986809 85.30611474 85.10540902 ... 94.70350487 92.20806362
+  93.02082551]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[21.59518647 21.59518647 21.59518647 ... 21.64480811 21.64480811
+  21.64480811]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[15.7441624  15.7441624  15.7441624  ... 15.73235907 15.73235907
+  15.73235907]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[-16.75441126 -16.75441126 -16.75441126 ... -16.65178499 -16.65178499
+  -16.65178499]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[-0.15483315 -0.15483315 -0.15596885 ... -0.15905362 -0.15905362
+  -0.15690272]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[-0.34356241 -0.34356241 -0.3430235  ... -0.41008264 -0.41008264
+  -0.40029027]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[0.92627834 0.92627834 0.92628753 ... 0.89807248 0.89807248 0.90285615]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[-40.44544267 -40.44544267 -40.44544267 ... -40.55935082 -40.55935082
+  -40.55935082]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[15.26270889 15.26270889 15.26270889 ... 15.31350562 15.31350562
+  15.31350562]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[-19.93186285 -19.93186285 -19.93186285 ... -19.66960843 -19.66960843
+  -19.66960843]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[0.37560601 0.37601234 0.37601234 ... 0.32362936 0.3340445  0.3340445 ]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[-0.26840054 -0.26823189 -0.26823189 ... -0.35735426 -0.34320657
+  -0.34320657]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 16504)
+Data type: float64
+Data: [[0.88706329 0.88694215 0.88694215 ... 0.87610614 0.87785165 0.87785165]]
+------------------------ Dataset: Mzg ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[6496.4880645 6496.4920425 6496.496044  ... 6531.75604   6531.7600115
+  6531.7639825]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[   0.    0.    0. ... 1053. 1053. 1053.]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[0.99800439 0.99832736 0.99840159 ... 0.99854683 0.99856637 0.99879666]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[0.50795313 0.50815415 0.50784614 ... 0.48806881 0.48838921 0.48908776]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[0.68896515 0.68868013 0.68835698 ... 0.78385377 0.78323894 0.78301245]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: object
+Data: [[<HDF5 object reference> <HDF5 object reference> <HDF5 object reference>
+  ... <HDF5 object reference> <HDF5 object reference>
+  <HDF5 object reference>]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[ 1.95296294  1.97869415  1.93125208 ... -0.99285135 -0.94081118
+  -0.83679126]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[-19.75292849 -19.69426251 -19.64069518 ... -28.97169591 -28.82863224
+  -28.90222325]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[88.34876601 88.1949509  88.0797184  ... 90.92231434 90.65545822
+  90.95511906]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[19.76665744 19.76665744 19.76665744 ... 19.54607485 19.54607485
+  19.54607485]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[14.93654716 14.93654716 14.93654716 ... 14.91434386 14.91434386
+  14.91434386]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[-20.63894051 -20.63894051 -20.63894051 ... -20.99104936 -20.99104936
+  -20.99104936]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[-0.15386305 -0.15386305 -0.1544284  ... -0.16845618 -0.16845618
+  -0.16720432]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[-0.29763506 -0.29763506 -0.29735531 ... -0.36181762 -0.36181762
+  -0.36125921]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[0.94219931 0.94219931 0.94219514 ... 0.91690268 0.91690268 0.9173519 ]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[-40.75137637 -40.75137637 -40.75137637 ... -40.86491086 -40.86491086
+  -40.86491086]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[15.36120456 15.36120456 15.36120456 ... 15.34499184 15.34499184
+  15.34499184]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[-19.27317322 -19.27317322 -19.27317322 ... -19.01850417 -19.01850417
+  -19.01850417]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[0.3529208  0.35355758 0.35355758 ... 0.31885454 0.319963   0.319963  ]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[-0.29226394 -0.29204995 -0.29204995 ... -0.35239744 -0.35173987
+  -0.35173987]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 8587)
+Data type: float64
+Data: [[0.88883559 0.88865284 0.88865284 ... 0.87985671 0.87971742 0.87971742]]
+------------------------ Dataset: Vzr ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [116]
+ [105]
+ [109]
+ [101]
+ [115]
+ [116]
+ [ 97]
+ [109]
+ [112]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (11, 1)
+Data type: uint16
+Data: [[119]
+ [111]
+ [114]
+ [108]
+ [100]
+ [ 95]
+ [105]
+ [110]
+ [100]
+ [101]
+ [120]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[ 99]
+ [111]
+ [110]
+ [102]
+ [105]
+ [100]
+ [101]
+ [110]
+ [ 99]
+ [101]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[110]
+ [111]
+ [114]
+ [109]
+ [ 95]
+ [112]
+ [111]
+ [115]
+ [ 95]
+ [120]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[110]
+ [111]
+ [114]
+ [109]
+ [ 95]
+ [112]
+ [111]
+ [115]
+ [ 95]
+ [121]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (9, 1)
+Data type: uint16
+Data: [[ 98]
+ [ 97]
+ [115]
+ [101]
+ [ 95]
+ [100]
+ [ 97]
+ [116]
+ [ 97]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [120]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [121]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [122]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [120]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [121]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [122]]
+------------------------ Dataset: bI ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[6757.2699185 6757.2715155 6757.273126  ... 6781.844742  6781.848644
+  6781.852577 ]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[  0.   0.   0. ... 734. 734. 734.]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[0.99923287 0.99922118 0.99909177 ... 0.99918082 0.99916501 0.99897525]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[0.46456738 0.464088   0.46414474 ... 0.47306146 0.47262045 0.47266652]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[0.79052026 0.7913211  0.79146532 ... 0.8028937  0.80284255 0.80302977]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: object
+Data: [[<HDF5 object reference> <HDF5 object reference> <HDF5 object reference>
+  ... <HDF5 object reference> <HDF5 object reference>
+  <HDF5 object reference>]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[-4.36000666 -4.42064228 -4.40951357 ... -3.22495384 -3.28473566
+  -3.27603866]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[-28.04020281 -28.04814348 -28.04151162 ... -29.98427638 -29.92159067
+  -29.9209636 ]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[86.02340566 85.82379653 85.76428008 ... 88.50818112 88.33495741
+  88.28177644]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[18.83042394 18.83042394 18.83042394 ... 18.93383204 18.93383204
+  18.93383204]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[14.9248312  14.9248312  14.9248312  ... 14.92668886 14.92668886
+  14.92668886]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[-22.08628839 -22.08628839 -22.08628839 ... -21.92458542 -21.92458542
+  -21.92458542]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[-0.19546658 -0.19627256 -0.19627256 ... -0.18270091 -0.18345332
+  -0.18345332]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[-0.36113753 -0.36236594 -0.36236594 ... -0.36897323 -0.36904881
+  -0.36904881]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[0.91179631 0.91113556 0.91113556 ... 0.91130628 0.9111245  0.9111245 ]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[-40.84528046 -40.84528046 -40.84528046 ... -40.93230537 -40.93230537
+  -40.93230537]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[15.37023054 15.37023054 15.37023054 ... 15.39711586 15.39711586
+  15.39711586]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[-19.05005393 -19.05005393 -19.05005393 ... -18.8939239  -18.8939239
+  -18.8939239 ]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[0.30554503 0.30554503 0.30576666 ... 0.30766909 0.30766909 0.30784695]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[-0.36463427 -0.36463427 -0.36485976 ... -0.371736   -0.371736
+  -0.37201303]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 5937)
+Data type: float64
+Data: [[0.87959313 0.87959313 0.8794226  ... 0.87587218 0.87587218 0.87569205]]
+------------------------ Dataset: ces ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [116]
+ [105]
+ [109]
+ [101]
+ [115]
+ [116]
+ [ 97]
+ [109]
+ [112]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (11, 1)
+Data type: uint16
+Data: [[119]
+ [111]
+ [114]
+ [108]
+ [100]
+ [ 95]
+ [105]
+ [110]
+ [100]
+ [101]
+ [120]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[ 99]
+ [111]
+ [110]
+ [102]
+ [105]
+ [100]
+ [101]
+ [110]
+ [ 99]
+ [101]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[110]
+ [111]
+ [114]
+ [109]
+ [ 95]
+ [112]
+ [111]
+ [115]
+ [ 95]
+ [120]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[110]
+ [111]
+ [114]
+ [109]
+ [ 95]
+ [112]
+ [111]
+ [115]
+ [ 95]
+ [121]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (9, 1)
+Data type: uint16
+Data: [[ 98]
+ [ 97]
+ [115]
+ [101]
+ [ 95]
+ [100]
+ [ 97]
+ [116]
+ [ 97]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [120]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [121]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [122]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [120]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [121]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [122]]
+------------------------ Dataset: ePs ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [116]
+ [105]
+ [109]
+ [101]
+ [115]
+ [116]
+ [ 97]
+ [109]
+ [112]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (11, 1)
+Data type: uint16
+Data: [[119]
+ [111]
+ [114]
+ [108]
+ [100]
+ [ 95]
+ [105]
+ [110]
+ [100]
+ [101]
+ [120]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[ 99]
+ [111]
+ [110]
+ [102]
+ [105]
+ [100]
+ [101]
+ [110]
+ [ 99]
+ [101]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[110]
+ [111]
+ [114]
+ [109]
+ [ 95]
+ [112]
+ [111]
+ [115]
+ [ 95]
+ [120]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[110]
+ [111]
+ [114]
+ [109]
+ [ 95]
+ [112]
+ [111]
+ [115]
+ [ 95]
+ [121]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (9, 1)
+Data type: uint16
+Data: [[ 98]
+ [ 97]
+ [115]
+ [101]
+ [ 95]
+ [100]
+ [ 97]
+ [116]
+ [ 97]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [120]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [121]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [122]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [120]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [121]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [122]]
+------------------------ Dataset: kAr ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[5805.495764  5805.499838  5805.506576  ... 5815.471762  5815.4757985
+  5815.4797325]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[  0.   0.   0. ... 296. 296. 296.]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[0.99950012 0.9993637  0.99935055 ... 0.99912764 0.99937399 0.99923475]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[0.49624136 0.49638601 0.49681725 ... 0.48186777 0.48087037 0.48140808]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[0.90146348 0.90182925 0.90163885 ... 0.88820762 0.88734029 0.88773987]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: object
+Data: [[<HDF5 object reference> <HDF5 object reference> <HDF5 object reference>
+  ... <HDF5 object reference> <HDF5 object reference>
+  <HDF5 object reference>]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[ 0.22064682  0.23932173  0.29631139 ... -2.28392488 -2.45022443
+  -2.34080518]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[-33.42517905 -33.41595731 -33.46813457 ... -44.61287086 -44.28569955
+  -44.07840184]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[ 74.5975057   74.50542869  74.65883076 ... 103.09539858 102.57293147
+  101.98592202]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[20.86588114 20.86588114 20.86588114 ... 20.6628024  20.6628024
+  20.6628024 ]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[15.87536932 15.87536932 15.87536932 ... 15.85217694 15.85217694
+  15.85217694]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[-17.8313867  -17.8313867  -17.8313867  ... -18.16745765 -18.16745765
+  -18.16745765]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[-0.19232301 -0.19232301 -0.19153559 ... -0.16578731 -0.16772967
+  -0.16772967]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[-0.48054087 -0.48054087 -0.48023292 ... -0.46358463 -0.46261504
+  -0.46261504]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[0.85562394 0.85562394 0.8559734  ... 0.87040442 0.87054815 0.87054815]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[-39.12798452 -39.12798452 -39.12798452 ... -39.12798452 -39.12798452
+  -39.12798452]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[15.05805767 15.05805767 15.05805767 ... 15.05805767 15.05805767
+  15.05805767]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[-22.31517649 -22.31517649 -22.31517649 ... -22.31517649 -22.31517649
+  -22.31517649]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[0.34023919 0.34064042 0.34064042 ... 0.25520584 0.25520584 0.25702577]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[-0.40154794 -0.40203992 -0.40203992 ... -0.39136654 -0.39136654
+  -0.39208597]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (1, 2446)
+Data type: float64
+Data: [[0.85029204 0.84989882 0.84989882 ... 0.88413925 0.88413925 0.8832929 ]]
+------------------------ Dataset: mNy ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [116]
+ [105]
+ [109]
+ [101]
+ [115]
+ [116]
+ [ 97]
+ [109]
+ [112]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (11, 1)
+Data type: uint16
+Data: [[119]
+ [111]
+ [114]
+ [108]
+ [100]
+ [ 95]
+ [105]
+ [110]
+ [100]
+ [101]
+ [120]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[ 99]
+ [111]
+ [110]
+ [102]
+ [105]
+ [100]
+ [101]
+ [110]
+ [ 99]
+ [101]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[110]
+ [111]
+ [114]
+ [109]
+ [ 95]
+ [112]
+ [111]
+ [115]
+ [ 95]
+ [120]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[110]
+ [111]
+ [114]
+ [109]
+ [ 95]
+ [112]
+ [111]
+ [115]
+ [ 95]
+ [121]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (9, 1)
+Data type: uint16
+Data: [[ 98]
+ [ 97]
+ [115]
+ [101]
+ [ 95]
+ [100]
+ [ 97]
+ [116]
+ [ 97]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [120]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [121]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [122]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [120]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [121]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [122]]
+------------------------ Dataset: mgc ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [116]
+ [105]
+ [109]
+ [101]
+ [115]
+ [116]
+ [ 97]
+ [109]
+ [112]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (11, 1)
+Data type: uint16
+Data: [[119]
+ [111]
+ [114]
+ [108]
+ [100]
+ [ 95]
+ [105]
+ [110]
+ [100]
+ [101]
+ [120]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[ 99]
+ [111]
+ [110]
+ [102]
+ [105]
+ [100]
+ [101]
+ [110]
+ [ 99]
+ [101]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[110]
+ [111]
+ [114]
+ [109]
+ [ 95]
+ [112]
+ [111]
+ [115]
+ [ 95]
+ [120]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[110]
+ [111]
+ [114]
+ [109]
+ [ 95]
+ [112]
+ [111]
+ [115]
+ [ 95]
+ [121]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (9, 1)
+Data type: uint16
+Data: [[ 98]
+ [ 97]
+ [115]
+ [101]
+ [ 95]
+ [100]
+ [ 97]
+ [116]
+ [ 97]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [120]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [121]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [122]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [120]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [121]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [122]]
+------------------------ Dataset: nzg ------------------------
+shape: (21, 1), dtype: object
+Data: [[<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]
+ [<HDF5 object reference>]] 
+Dereferenced data 0 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [116]
+ [105]
+ [109]
+ [101]
+ [115]
+ [116]
+ [ 97]
+ [109]
+ [112]]
+Dereferenced data 1 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (11, 1)
+Data type: uint16
+Data: [[119]
+ [111]
+ [114]
+ [108]
+ [100]
+ [ 95]
+ [105]
+ [110]
+ [100]
+ [101]
+ [120]]
+Dereferenced data 2 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[ 99]
+ [111]
+ [110]
+ [102]
+ [105]
+ [100]
+ [101]
+ [110]
+ [ 99]
+ [101]]
+Dereferenced data 3 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[110]
+ [111]
+ [114]
+ [109]
+ [ 95]
+ [112]
+ [111]
+ [115]
+ [ 95]
+ [120]]
+Dereferenced data 4 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (10, 1)
+Data type: uint16
+Data: [[110]
+ [111]
+ [114]
+ [109]
+ [ 95]
+ [112]
+ [111]
+ [115]
+ [ 95]
+ [121]]
+Dereferenced data 5 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (9, 1)
+Data type: uint16
+Data: [[ 98]
+ [ 97]
+ [115]
+ [101]
+ [ 95]
+ [100]
+ [ 97]
+ [116]
+ [ 97]]
+Dereferenced data 6 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 7 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 8 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (15, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [112]
+ [111]
+ [105]
+ [110]
+ [116]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 9 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 10 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 11 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 48]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 12 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [120]]
+Dereferenced data 13 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [121]]
+Dereferenced data 14 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 48]
+ [ 95]
+ [122]]
+Dereferenced data 15 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [120]]
+Dereferenced data 16 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [121]]
+Dereferenced data 17 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (16, 1)
+Data type: uint16
+Data: [[101]
+ [121]
+ [101]
+ [ 95]
+ [ 99]
+ [101]
+ [110]
+ [116]
+ [101]
+ [114]
+ [ 49]
+ [ 95]
+ [ 51]
+ [100]
+ [ 95]
+ [122]]
+Dereferenced data 18 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [120]]
+Dereferenced data 19 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [121]]
+Dereferenced data 20 type: <class 'h5py._hl.dataset.Dataset'>
+Shape: (14, 1)
+Data type: uint16
+Data: [[103]
+ [ 97]
+ [122]
+ [101]
+ [ 95]
+ [110]
+ [111]
+ [114]
+ [109]
+ [ 97]
+ [108]
+ [ 49]
+ [ 95]
+ [122]]

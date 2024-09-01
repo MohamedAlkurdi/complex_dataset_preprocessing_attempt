@@ -8,17 +8,14 @@ txt_file_path = r"C:\Users\alkrd\Desktop\graduation_project\data_exploring_scrip
 output_dir = r"C:\Users\alkrd\Desktop\graduation_project\data_exploring_scripts-v1\datafile2_refs_keys_content_outputs"
 batch_size = 20000
 
-# Read the keys from the .txt file
 with open(txt_file_path, 'r') as file:
     keys = file.read().splitlines()
 
-# Open the .mat file
 with h5py.File(path, 'r') as f:
     refs_group = f['#refs#']
     file_number = 1
     count = 0
 
-    # Process keys in batches
     for i in range(0, len(keys), batch_size):
         batch_keys = keys[i:i + batch_size]
         output_file_path = f"{output_dir}/keys_content_output{file_number}.txt"
