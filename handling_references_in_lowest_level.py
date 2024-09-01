@@ -35,3 +35,5 @@ with h5py.File(path, 'r') as f:
                     output_file.write(f"shape: {item.shape}, dtype: {item.dtype}\n")
                     output_file.write(f"Data: {item[:]} \n")
                     dereference(item[:], f, output_file)
+
+
