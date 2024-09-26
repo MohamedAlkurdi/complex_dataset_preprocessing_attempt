@@ -1,0 +1,15 @@
+Shape: (1, 17991), Count: 21 
+Shape: (1, 15587), Count: 21 
+Shape: (1, 2245), Count: 21 
+Shape: (1, 22897), Count: 21 
+Shape: (14, 1), Count: 56 
+Shape: (11, 1), Count: 8 
+Shape: (10, 1), Count: 24 
+Shape: (9, 1), Count: 8 
+Shape: (15, 1), Count: 24 
+Shape: (16, 1), Count: 48 
+Shape: (1, 9204), Count: 21 
+Shape: (1, 16504), Count: 21 
+Shape: (1, 8587), Count: 21 
+Shape: (1, 5937), Count: 21 
+Shape: (1, 2446), Count: 21 

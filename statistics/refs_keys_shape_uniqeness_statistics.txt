@@ -1,4 +1,4 @@
-Shape: (1, 6), Count: 2058 
+Shape: (1, 6), Count: 2058 -> each row followed by 25 dataset with the form (x, 1) 
 Shape: (27, 1), Count: 30744 
 Shape: (33, 1), Count: 28398 
 Shape: (39, 1), Count: 6337 
