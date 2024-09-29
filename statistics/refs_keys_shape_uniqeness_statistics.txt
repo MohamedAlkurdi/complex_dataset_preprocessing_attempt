@@ -1,39 +1,39 @@
 Shape: (1, 6), Count: 2058 -> each row followed by 25 dataset with the form (x, 1) 
-Shape: (27, 1), Count: 30744 
-Shape: (33, 1), Count: 28398 
-Shape: (39, 1), Count: 6337 
-Shape: (31, 1), Count: 277 
-Shape: (40, 1), Count: 4697 
-Shape: (26, 1), Count: 5996 
-Shape: (34, 1), Count: 10472 
-Shape: (32, 1), Count: 2898 
-Shape: (25, 1), Count: 890 
-Shape: (13, 1), Count: 3304 
-Shape: (41, 1), Count: 948 
-Shape: (19, 1), Count: 1407 
-Shape: (12, 1), Count: 310 
-Shape: (20, 1), Count: 566 
-Shape: (24, 1), Count: 126 
-Shape: (30, 1), Count: 36 
-Shape: (1, 22897), Count: 21 
-Shape: (1, 17991), Count: 21 
-Shape: (1, 2245), Count: 21 
+Shape: (27, 1), Count: 30744    c1
+Shape: (33, 1), Count: 28398    c1
+Shape: (39, 1), Count: 6337     c1
+Shape: (31, 1), Count: 277  c1
+Shape: (40, 1), Count: 4697     c1
+Shape: (26, 1), Count: 5996     c1
+Shape: (34, 1), Count: 10472    c1
+Shape: (32, 1), Count: 2898     c1
+Shape: (25, 1), Count: 890  c1
+Shape: (13, 1), Count: 3304     c1
+Shape: (41, 1), Count: 948  c1
+Shape: (19, 1), Count: 1407     c1
+Shape: (12, 1), Count: 310  c1
+Shape: (20, 1), Count: 566  c1
+Shape: (24, 1), Count: 126  c1
+Shape: (30, 1), Count: 36   c1
+Shape: (1, 22897), Count: 21        mentioned in (1, 1)
+Shape: (1, 17991), Count: 21     mentioned in (1, 1)
+Shape: (1, 2245), Count: 21     mentioned in (1, 1)
 Shape: (23, 1), Count: 26 
 Shape: (1, 1), Count: 24 
-Shape: (1, 5937), Count: 21 
-Shape: (1, 15587), Count: 21 
-Shape: (1, 16504), Count: 21 
-Shape: (14, 1), Count: 56 
-Shape: (1, 2446), Count: 21 
-Shape: (10, 1), Count: 32 
-Shape: (9, 1), Count: 16 
-Shape: (15, 1), Count: 24 
-Shape: (3, 1), Count: 8 
-Shape: (11, 1), Count: 37 
-Shape: (16, 1), Count: 48 
-Shape: (21, 1), Count: 17 
-Shape: (1, 8587), Count: 21 
-Shape: (2,), Count: 9 
-Shape: (29, 1), Count: 8 
+Shape: (1, 5937), Count: 21         mentioned in (1, 1)
+Shape: (1, 15587), Count: 21        mentioned in (1, 1)
+Shape: (1, 16504), Count: 21        mentioned in (1, 1)
+Shape: (14, 1), Count: 56      c2
+Shape: (1, 2446), Count: 21         mentioned in (1, 1)
+Shape: (10, 1), Count: 32   c2
+Shape: (9, 1), Count: 16    c2
+Shape: (15, 1), Count: 24   c2
+Shape: (3, 1), Count: 8     c2?
+Shape: (11, 1), Count: 37   c1
+Shape: (16, 1), Count: 48   c2
+Shape: (21, 1), Count: 17               mentioned in (1, 1)?
+Shape: (1, 8587), Count: 21             mentioned in (1, 1)
+Shape: (2,), Count: 9                   mentioned in (1, 1)?
+Shape: (29, 1), Count: 8    c1
 Shape: (1, 9204), Count: 6 
 Shape: (1, 247128), Count: 1 
